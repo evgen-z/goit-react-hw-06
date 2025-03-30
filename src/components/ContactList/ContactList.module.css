@@ -1,0 +1,9 @@
+.container {
+  min-width: 600px;
+}
+
+.ul {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,43 @@
+.container {
+  border: 1px solid;
+  padding: 16px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.input label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.field {
+  height: 24px;
+  width: 360px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+.button {
+  width: 164px;
+  margin-left: auto;
+  margin-right: auto;
+}
